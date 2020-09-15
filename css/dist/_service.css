@@ -1,0 +1,22 @@
+#service_section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background: url(/image/color-bg.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#service_section .right_service {
+  position: relative;
+}
+#service_section .right_service .img_play {
+  position: absolute;
+  right: 0;
+  top: 70%;
+  width: 40%;
+  height: auto;
+}
+.right_content a {
+  font-size: 20px;
+  text-decoration: none;
+}

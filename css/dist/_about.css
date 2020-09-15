@@ -1,0 +1,43 @@
+#about {
+  background-color: #ffffff;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+#about .well-service {
+  -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+  width: 15.625rem;
+  height: 25rem;
+}
+.service-img {
+  height: 40%;
+  background-color: #f5f8fb;
+  clip-path: polygon(0 1%, 100% 0, 100% 84%, 85% 84%, 77% 100%, 22% 100%, 15% 83%, 0 83%);
+}
+.service-img:hover {
+  background-color: #1067DB;
+  clip-path: polygon(0 0, 100% 0, 100% 84%, 75% 84%, 61% 100%, 39% 100%, 23% 83%, 0 83%);
+}
+.service-img:hover .icon {
+  background-color: #fff;
+  color: #1067DB;
+}
+.service-img .icon {
+  border: 1px solid white;
+  height: 5rem;
+  width: 5rem;
+  padding: 2rem;
+  border-radius: 50%;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: #1067DB;
+}
+.service-img .icon i {
+  margin-top: 4rem;
+}
+
+.main-wel {
+  height: 60%;
+}

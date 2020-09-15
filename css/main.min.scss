@@ -1,0 +1,34 @@
+@import "mixin";
+@import "variable";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import "header";
+
+@import "about";
+
+@import "service";
+
+@import "soft-solution";
+
+@import "server-solution";
+
+@import "cyber_security"; 
+
+@import "counter";
+
+@import "pricing";
+
+@import "heading-contact";
+
+@import "client-review";
+
+@import "blog";
+
+@import "footer";
+
+  

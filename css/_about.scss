@@ -1,0 +1,74 @@
+@import "mixin";
+@import "variable";
+
+#about {
+  background-color: $white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  .well-service {
+    @include borderShadow;
+    @include service_card;
+    @at-root .service-img {
+      height: 40%;
+      background-color: #f5f8fb;
+      clip-path: polygon(0 1%, 100% 0, 100% 84%, 85% 84%, 77% 100%, 22% 100%, 15% 83%, 0 83%);
+
+        &:hover {
+          background-color: $primaryColor;
+          clip-path: polygon(0 0, 100% 0, 100% 84%, 75% 84%, 61% 100%, 39% 100%, 23% 83%, 0 83%);
+        }
+
+        &:hover .icon{
+            background-color: #fff;
+            color: $primaryColor;
+        }
+      .icon {
+        border: 1px solid white;
+        height: 3.5rem; //56 px
+        width: 3.5rem;
+        padding: 1.5rem;
+        border-radius: 50%;
+        color: #fff;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: $primaryColor;
+
+        i{
+          margin-top: 4rem;
+        }
+      }
+     
+    }
+
+    @at-root .main-wel {
+        height: 60%;
+    }
+  }
+}
+
+
+@media (max-width:767px){
+    .well-service{
+      margin-left: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .ser-card{
+      margin-left: 3rem !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+    .about-row{
+      margin-left: 4rem !important;
+
+      .ser-card1{
+        margin-bottom: 1rem !important;
+      }
+
+      .ser-card3{
+        margin-left: 1rem !important;
+      }
+    }
+}

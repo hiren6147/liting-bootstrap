@@ -1,0 +1,14 @@
+#contact-headline {
+  background-color: #1067DB;
+}
+#contact-headline .contact-btn {
+  width: 10rem;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+  font-weight: 500;
+}
+#contact-headline .contact-btn:hover {
+  background-color: #1067DB;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}

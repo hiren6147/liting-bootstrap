@@ -1,0 +1,19 @@
+#blog_section {
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+#blog_section .card {
+  -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 767px) {
+  .card-title {
+    padding-left: 2rem !important;
+  }
+
+  .read-btn {
+    margin-left: 2rem !important;
+  }
+}

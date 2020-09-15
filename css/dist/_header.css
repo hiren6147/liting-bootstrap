@@ -1,0 +1,56 @@
+#mainHeader {
+  background: url(/image/bg.jpg);
+  background-size: cover !important;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 6rem;
+}
+#mainHeader .img_container {
+  background: url(/image/bgp.png);
+  background-size: cover !important;
+}
+#mainHeader .sign_btn {
+  background-color: #1067DB;
+  color: #ffffff;
+  padding: 0.5rem 1.875rem;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}
+.nav-item:hover .nav-link {
+  color: #1067DB;
+}
+
+.main_text .title_1 {
+  color: #1067DB;
+  font-size: 1rem;
+  font-weight: 400 !important;
+}
+.main_text .title_1 i {
+  border: 1px sloid #1067DB;
+  color: #1067DB;
+  font-size: 1.5625rem;
+  width: 3.125rem;
+  height: 3.125rem;
+  text-align: center;
+  border-radius: 3px;
+  padding-top: 0.625rem;
+  padding-left: 0.2rem;
+  margin-right: 1.2rem;
+}
+.main_text .title_2 {
+  line-height: 3.8rem;
+  font-size: 2rem;
+  font-weight: 500;
+  max-width: 33rem;
+}
+.main_text .title_2 .color_text {
+  color: #1067DB;
+}
+.main_text .service_btn {
+  background-color: #1067DB;
+  color: #ffffff;
+  padding: 0.5rem 1.875rem;
+  font-weight: 500;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+}

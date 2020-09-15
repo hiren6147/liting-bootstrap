@@ -1,0 +1,71 @@
+@import "mixin";
+@import "variable";
+
+#soft-solution {
+  @include soft-sol;
+
+  .title_3 {
+    @include solution_title;
+    i {
+      @include solution_title_icon;
+    }
+  }
+
+  @at-root .feature-text {
+    list-style: none;
+
+    li {
+      span {
+        @include feature-text-span;
+      }
+      a {
+        @include feature-text-a;
+      }
+
+      &:hover span {
+        background: $white;
+        color: $primaryColor;
+      }
+
+      &:hover a {
+        background: $primaryColor;
+        color: $white;
+      }
+    }
+  }
+
+  .soft-sol-img {
+    -webkit-animation: mover 2s infinite  alternate;
+    animation: mover 2s infinite  alternate;
+
+    @-webkit-keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+  }
+  @keyframes mover {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-20px); }
+  }
+  }
+
+
+}
+
+@media (max-width:767px){
+  .feature-text li{
+      float: left;
+      width: 100% !important;
+      margin-left: 1rem !important;
+  }
+
+  h3{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    font-size: 1.4rem !important;
+  }
+
+  p{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+}

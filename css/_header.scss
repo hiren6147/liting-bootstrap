@@ -1,0 +1,60 @@
+@import "mixin";
+@import "variable";
+
+#mainHeader {
+  @include mainHeader ;
+
+  .img_container {
+    background: url(/image/bgp.png) ;
+    background-size: cover !important;
+  }
+
+  .sign_btn {
+   @include nav_button ;
+  }
+
+ @at-root .nav-item {
+    &:hover .nav-link {
+      color: $primaryColor;
+    }
+  }
+  @at-root .main_text {
+    .title_1 {
+      color: $primaryColor;
+      font-size: 1rem;
+      font-weight: 400 !important;
+
+      i {
+        border: 1px sloid $primaryColor;
+        color: $primaryColor;
+        font-size: 1.5625rem;
+        width: 3.125rem;
+        height: 3.125rem;
+        text-align: center;
+        border-radius: 3px;
+        padding-top: 0.625rem; //10px
+        padding-left: 0.2rem; //3px
+        margin-right: 1.2rem; //20px
+      }
+    }
+
+    .title_2{
+        line-height: 3.8rem;
+        font-size: 2rem;
+        font-weight: 500;
+        max-width: 33rem;
+   
+    .color_text {
+      color: $primaryColor;
+    }
+}
+    .service_btn {
+      background-color: $primaryColor;
+      color: $white;
+      padding: 0.5rem 1.875rem;
+      font-weight: 500;
+      font-size: 1rem;
+      font-family: $poppins;
+    }
+  } //mainText
+}  //mainHeader 
