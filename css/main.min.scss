@@ -1,12 +1,23 @@
 @import "mixin";
 @import "variable";
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+body{
+  overflow-x: hidden;
+}
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+}
 @import "header";
 
 @import "about";

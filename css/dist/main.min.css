@@ -4,6 +4,18 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #555;
+  color: #fff;
+}
+
 #mainHeader {
   background: url(/image/bg.jpg);
   background-size: cover !important;
@@ -11,7 +23,7 @@
   padding-bottom: 6rem;
 }
 #mainHeader .img_container {
-  background: url(/image/bgp.png);
+  background: url("image/bg.jpg");
   background-size: cover !important;
 }
 #mainHeader .sign_btn {
